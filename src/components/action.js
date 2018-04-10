@@ -11,7 +11,7 @@ type Payload = {
 
 function addTodo(payload: Payload) {
   return (dispatch: void) => ({type: Type.ADD_TODO, payload: payload})
-} 
+}
 
 export default {
   addTodo
